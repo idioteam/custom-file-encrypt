@@ -1,6 +1,8 @@
 /* 
-	Test modulo
+	Wrapper per il modulo file-encryptor
  */
- exports.printMsg = function(){
-	console.log('Messaggio dal demo package');
+ module.exports = {
+	encryptor: require('file-encryptor'),
+	key: 'Tette123',
+	suffix: '.dat'	 
  }
